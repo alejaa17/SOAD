@@ -7,6 +7,19 @@ button{
     width: 100%;
     background-color: transparent;
 }
+a, p{
+    text-decoration: none !important;
+    color: white !important;
+}
+p{
+    padding: 2% 2% 2% 2%;
+}
+footer{
+    width: 100%;
+}
+nav{
+    padding-top: 0px !important;
+}
 body {
     display: flex;
     flex-flow: column nowrap;
@@ -94,33 +107,54 @@ button:hover{
 } */
 
 .collageG{
-    height: 430px;
+    height: 460px !important;
 }
+
 
 .daron{
     height: 228px;
 }
 
 .shavo{
-    height: 190px;
+    height: 190px !important;
 }
 
 .john{
-    height: 190px;
+    height: 190px !important;
 }
 
 .contenedorImagen{
     position: relative;
     display: inline-block;
     text-align: center;
+   
 }
 
 .centrado{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 90%;
     transform: translate(-50%, -50%);
     font-weight: bold;
+    color: white;
+}
+
+.centrado2{
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+}
+
+.centrado1{
+    position: absolute;
+    top: 110%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
 }
 
 /* pagina de boletos */
@@ -161,3 +195,8 @@ button:hover{
 .serj:hover{
     filter: opacity(.5);
 }
+
+.collageG:hover{
+    filter:opacity(.5);
+}
+
